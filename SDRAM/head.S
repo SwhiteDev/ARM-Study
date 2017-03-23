@@ -40,7 +40,7 @@ memsetup:
 1:
 	ldr r4,[r2],#4
 	str r4,[r1],#4
-	cmp r1,r3,
+	cmp r1,r3
 	bne 1b
 	mov pc,lr
 
